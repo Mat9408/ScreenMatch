@@ -1,6 +1,7 @@
 package com.mt9408.screenmatch.modelos;
 
 import com.google.gson.annotations.SerializedName;
+import com.mt9408.screenmatch.excecao.ErroDeConversaoException;
 
 public class Titulo implements Comparable<Titulo>{
 
@@ -22,6 +23,10 @@ public class Titulo implements Comparable<Titulo>{
 
     public Titulo(TituloOMDB filmeomdb) {
         this.nome = filmeomdb.title();
+
+        if (filmeomdb.year().length() > 4) {
+            throw new ErroDeConversaoException("Não foi possível identificar o ano. O valor retornado contém mais de 4 caracteres.");
+        }
         this.anoDeLancamento = Integer.valueOf(filmeomdb.year());
         this.duracaoEmMinutos = Integer.valueOf(filmeomdb.runtime().substring(0,2));
 
