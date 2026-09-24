@@ -75,5 +75,5 @@ http://www.omdbapi.com/apikey.aspx
 ## License:
 ### No license.
 
-Thank you for checking out my project! If you would like to learn more about my work and professional journey, feel free to connect with me on LinkedIn.
+### Thank you for checking out my project! If you would like to learn more about my work and professional journey, feel free to connect with me on LinkedIn.
 https://www.linkedin.com/in/matheusdacunhaalves/
