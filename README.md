@@ -1,5 +1,6 @@
+## 📖 PT-BR
 
-# ScreenMatch
+# ScreenMatch 
 
 -------------------------------
 
@@ -35,4 +36,45 @@ http://www.omdbapi.com/apikey.aspx
 ### 8- Na configuração utilizada para executar o "MainComBusca", localize **Environment variables** e adicione: 
 #### omdbApiKey = chave obtida;
 ### 9- Para utilizar a busca de filmes e séries através da OMDb API, execute a classe MainComBusca: 
+#### src/main/java/com/mt9408/screenmatch/principal/MainComBusca
+
+--------------------------------
+## 📖 EN
+
+# ScreenMatch
+
+-------------------------------
+
+## About the project:
+
+### This project is a backend system for managing a movie and series catalog using data imported from The Open Movie Database (OMDb) API.
+### ScreenMatch is a project suggested by Alura, a tech learning platform, to practice programming concepts, object-oriented programming, API integration, and data manipulation.
+
+-------------------------------
+
+## Recommended prerequisites:
+
+### - Java 26 or a higher version:
+https://www.oracle.com/br/java/technologies/downloads/
+
+### - IntelliJ IDEA 2026.1.4 or a higher version:
+https://www.jetbrains.com/pt-br/idea/download/?section=windows
+
+### - Create a free account on "The Open Movie Database API":
+http://www.omdbapi.com/apikey.aspx
+
+-------------------------------
+
+## How to install:
+
+### 1- Download and install IntelliJ;
+### 2- Download and install Java 26 or higher version;
+### 3- Clone this repository with Git or download files from GitHub;
+### 4- Execute IntelliJ and load the project where it was installed;
+### 5- Create a free account on OMDB API;
+### 6- Copy your generated API key;
+### 7- On upper left menu access Run > Edit Configurations...
+### 8- In the configuration used to run `MainComBusca`, locate **Environment variables** and add:
+#### omdbApiKey = your key;
+### 9- To use the movie and series search feature through the OMDb API, run the `MainComBusca` class:
 #### src/main/java/com/mt9408/screenmatch/principal/MainComBusca
