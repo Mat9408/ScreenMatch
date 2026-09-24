@@ -27,9 +27,9 @@ http://www.omdbapi.com/apikey.aspx
 ### 5- Criar uma conta gratuita no OMDb API;
 ### 6- Copiar sua chave da API disponibilizada;
 ### 7- No menu superior esquerdo, acessar Run > Edit Configurations...
-### 8- Na configuração utilizada para executar o "MainComBusca", localize **Environment variables** e adicione: 
+### 8- Na configuração utilizada para executar o `MainComBusca`, localize **Environment variables** e adicione: 
 #### omdbApiKey = chave obtida;
-### 9- Para utilizar a busca de filmes e séries através da OMDb API, execute a classe MainComBusca: 
+### 9- Para utilizar a busca de filmes e séries através da OMDb API, execute a classe `MainComBusca`: 
 #### src/main/java/com/mt9408/screenmatch/principal/MainComBusca
 
 ## Licença:
